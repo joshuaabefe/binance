@@ -1,0 +1,148 @@
+.globe {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.globe:hover {
+    color: #f3ba2f;
+}
+
+button i {
+    color: #1e1e1e;
+    font-size: 1.5rem;
+}
+
+.navbar .btn-login {
+    padding: 0.45rem 1.05rem 0.45rem;
+	border: 0.125rem solid #f3ba2f;
+    color: #1e1e1e;
+    border-radius: 0.25rem;
+    font-size: 0.85rem;
+    background-color: #f3ba2f;
+    border-color: #f3ba2f;
+    text-decoration: none;
+    z-index: 10;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .navbar .btn-login {
+        display: none;
+    }
+}
+
+.URL {
+    background-color: #fef6d8;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: small;
+}
+
+.URL .https a, .URL i {
+    text-decoration: none;
+    color: #0ecb81;
+}
+
+.formBody {
+    padding: 9% 0;
+}
+
+@media (min-width: 992px) {
+    .formBody {
+        padding: 12.5% 0 0 35%;
+    }
+}
+
+.scanBody {
+    padding: 0 9%;
+    text-align: center;
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .scanBody {
+        padding: 34.5% 35% 0 0;
+        display: block;
+    }
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 0.575rem 2.25rem 0.575rem 0.75rem;
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    border-radius: 0.25rem;
+    color: #1e1e1e;
+    border: 1px solid #eaecef;
+    transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus, input:hover {
+    border: 1px solid #f3ba2f !important;
+    outline: 0 none;
+}
+
+.formBody .btn-login {
+    width: 100%;
+    padding: 0.75rem 2rem 0.75rem;
+	border: 0.125rem solid #f3ba2f;
+    color: #1e1e1e;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    background-color: #f3ba2f;
+    border-color: #f3ba2f;
+}
+
+.formBody .btn-login:hover, .navbar .btn-login:hover {
+    background-color: #f3bb2fce;
+    transition: border 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.hr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hr hr {
+    width: 30%;
+}
+
+.continueWith {
+    width: 100%;
+    padding: 0.75rem 2rem 0.75rem;
+    color: #1e1e1e;
+    font-size: 0.95rem;
+    border-radius: 0.25rem;
+    background-color: #eaecef;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fwBold {
+    font-weight: 600;
+}
+
+.formBody a, .scanBody a { 
+    text-decoration: none;
+    color: #f3ba2f;
+}
+
+.formBody a:hover, .scanBody a:hover { 
+    color: #f3bb2fce;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 3rem 0 0;
+    font-size: small;
+}
+
+footer span a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    color: #000;
+}
